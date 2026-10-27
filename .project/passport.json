@@ -1,0 +1,25 @@
+{
+  "schema": "project-passport/1",
+  "id": "window-capture",
+  "name": "Захват выбранного окна",
+  "summary": "Небольшой Python-прототип: предлагает выбрать окно Windows, снимает его содержимое через MSS, преобразует цвета OpenCV и показывает результат в Matplotlib. Более широкая задача, скрытая за названием репозитория, документами не подтверждена.",
+  "kind": "application",
+  "workflow": {
+    "profile": "standard"
+  },
+  "repositories": [
+    {
+      "role": "primary",
+      "url": "https://github.com/ViskyG/SevaMHack"
+    }
+  ],
+  "tags": [
+    "windows",
+    "screen-capture",
+    "python"
+  ],
+  "references": {
+    "source_1": "main.py",
+    "source_2": "src/MSSScreenCapture.py"
+  }
+}
